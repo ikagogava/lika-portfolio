@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: poppins, sans-serif;
+  text-decoration: none;
+  cursor: default;
+}
+
+body {
+  background-color: black;
+}
+
+
+#header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+  height: fit-content;
+  margin: 1rem;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  height: 5vh;
+  z-index: -3;
+}
+
+.logo{
+  font-family: Handwriting;
+  font-size: 80px;
+}
+
+.menu-container{
+  display: flex;
+}
+.menu{
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.menu-button{
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: 0.155s;
+  cursor: pointer;
+}
+
+.menu-button:hover{
+  background-color: white;
+  color: black;
+}
+
+/* MAIN */
+
+#main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: transparent;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.background{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: -1;
+}
+
+.name{
+  font-size: 100px;
+  height: 100px;
+  padding-bottom: 2rem;
+}
+.description{
+  margin-bottom: 2rem;
+}
+
+.button{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  border-radius: 103px;
+  font-size: larger;
+  transition: .3s;
+}
+.button:hover{
+  filter: brightness(90%);
+}
+
+.bx{
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.socials{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.socials-button{
+  transition: .2s;
+}
+
+.socials-button:hover{
+  filter: brightness(90%);
+}
