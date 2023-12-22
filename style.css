@@ -162,8 +162,9 @@ html::-webkit-scrollbar-track{
   margin-bottom: 4rem;
 }
 
+
 .pfp{
-  width: 400px;
+  height: 400px;
   object-fit: cover;
   border-radius: 15px;
 }
@@ -171,11 +172,12 @@ html::-webkit-scrollbar-track{
 .about-content{
   display: flex;
   flex-direction: row;
-  align-items: top;
+  align-items: flex-start;
   justify-content: center;
   width: 60%;
   gap: 2rem;
   height: fit-content;
+  flex-wrap: nowrap;
 }
 
 
