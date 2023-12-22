@@ -40,7 +40,7 @@ html::-webkit-scrollbar-track{
 #header{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: top;
   height: fit-content;
   margin: 1rem;
