@@ -322,15 +322,24 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
+  #main{
+    flex-direction: column-reverse;
+    gap: .5rem;
+    padding-bottom: 10rem;
+  }
 
   #header{
     justify-content: center;
-    padding-bottom: 15%;
+    padding-bottom: 20%;
+  }
+
+  .background{
+    width: 140%;
   }
   
   .bx{
     color: black;
-    font-size: 18px;
+    font-size: 25px;
   }
 
   #phone-menu{
@@ -340,8 +349,8 @@ footer {
     z-index: 3;
     bottom: 1rem;
     padding: 1rem;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
     background-color: white;
     border-radius: 66px;
     width: fit-content;
@@ -350,27 +359,43 @@ footer {
   #phone-menu.hidden {
     transform: translateY(-100%);
 }
+
   .phone-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    height: fit-content;
   }
 
   .phone-menu-item{
+  display: flex;
+  flex-direction: row;
   color: black;
   padding-right: 2rem;
   padding-left: 2rem;
+  background-color: white;
+  border-radius: 50%;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: .5s;
 } 
 
-
-
-
-
-
-  #main{
-    gap: 2rem;
-    padding-bottom: 10rem;
+  .phone-menu-item:active{
+    filter: invert(100%);
   }
 
+
+  .description{
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+
+
   .name{
-    font-size: 60px;
+    font-size: 50px;
+    height: 60px;
   }
 
   .menu{
