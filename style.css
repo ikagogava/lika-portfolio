@@ -329,12 +329,14 @@ footer {
   }
 
   #header{
+    padding-top: 7rem;
     justify-content: center;
     padding-bottom: 20%;
   }
 
   .background{
-    width: 140%;
+    height: 80%;
+    object-fit: cover;
   }
   
   .bx{
@@ -347,13 +349,10 @@ footer {
     flex-direction: row;
     position: fixed;
     z-index: 3;
-    bottom: 1rem;
-    padding: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    top: 0;
+    width: 100%;
+    padding: .5rem;
     background-color: white;
-    border-radius: 66px;
-    width: fit-content;
     justify-content: center;
   }
   #phone-menu.hidden {
@@ -371,8 +370,6 @@ footer {
   display: flex;
   flex-direction: row;
   color: black;
-  padding-right: 2rem;
-  padding-left: 2rem;
   background-color: white;
   border-radius: 50%;
   padding: 1rem;
@@ -427,6 +424,9 @@ footer {
     gap: 2rem;
   }
 
+  .section-title{
+    padding-top: 6rem;
+  }
 }
 
 
