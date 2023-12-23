@@ -78,6 +78,17 @@ html::-webkit-scrollbar-track{
   color: black;
 }
 
+
+#phone-menu{
+  display: none;
+}
+
+
+
+
+
+
+
 /* MAIN */
 
 #main{
@@ -280,3 +291,133 @@ footer {
   left: 1rem;
   bottom: 1rem;
 } 
+
+
+
+
+
+
+
+
+/* tablets */
+@media only screen and (max-width: 1300px){
+  .about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #main{
+    height: fit-content;
+    padding-top: 10%;
+  }
+
+
+} 
+
+
+
+
+
+/* phones*/
+
+@media only screen and (max-width: 600px) {
+
+
+  #header{
+    justify-content: center;
+    padding-bottom: 15%;
+  }
+  
+  .bx{
+    color: black;
+    font-size: 18px;
+  }
+
+  #phone-menu{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 3;
+    bottom: 3rem;
+    padding: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: white;
+    border-radius: 66px;
+    width: fit-content;
+    justify-content: center;
+  }
+
+  .phone-menu{
+  }
+
+  .phone-menu-item{
+  color: black;
+  padding-right: 2rem;
+  padding-left: 2rem;
+} 
+
+
+
+
+
+
+  #main{
+    gap: 2rem;
+    padding-bottom: 10rem;
+  }
+
+  .name{
+    font-size: 60px;
+  }
+
+  .menu{
+    display: none;
+  }
+
+
+  .about-content{
+    width: 100%;
+  }
+
+  .about-text{
+    padding-left: 1rem;
+  }
+
+  .songs{
+    display: flex;
+    flex-direction: column;
+  }
+  .songs-container{
+    padding: 2rem;
+    border-radius: 15px;
+    border: solid 1px gray;
+  }
+
+  .contact-info-upper-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 400px){
+
+.pfp{
+  width: 80%;
+}
+footer{
+  flex-direction: column;
+  text-align: center;
+}
+}
+
+@media only screen and (max-width: 400px){
+  .phone-menu-item{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
