@@ -338,7 +338,7 @@ footer {
     flex-direction: row;
     position: fixed;
     z-index: 3;
-    bottom: 3rem;
+    bottom: 1rem;
     padding: 1rem;
     padding-left: 0;
     padding-right: 0;
@@ -347,7 +347,9 @@ footer {
     width: fit-content;
     justify-content: center;
   }
-
+  #phone-menu.hidden {
+    transform: translateY(-100%);
+}
   .phone-menu{
   }
 
