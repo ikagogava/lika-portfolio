@@ -87,6 +87,7 @@ html::-webkit-scrollbar-track{
 
 #phone-menu{
   display: none;
+  transition: top 0.3s;
 }
 
 
