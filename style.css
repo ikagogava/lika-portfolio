@@ -140,13 +140,19 @@ html::-webkit-scrollbar-track{
   transition: .3s;
 }
 .button:hover{
-  filter: brightness(90%);
+  border: 18px double #ffffff;
+  background: rgba(0, 0, 0, 0.548);
+  color: white;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .bx{
   font-size: 30px;
   cursor: pointer;
 }
+
 
 .socials{
   display: flex;
