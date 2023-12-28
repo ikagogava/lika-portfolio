@@ -132,20 +132,19 @@ html::-webkit-scrollbar-track{
   cursor: pointer;
   background-color: white;
   color: black;
-  padding: 1rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding: .5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   border-radius: 103px;
   font-size: larger;
   transition: .3s;
+  border: 18px double transparent;
 }
 .button:hover{
   border: 18px double #ffffff;
   background: rgba(0, 0, 0, 0.548);
   color: white;
-  font-weight: bold;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
 }
 
 .bx{
